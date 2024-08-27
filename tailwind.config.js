@@ -6,6 +6,7 @@ module.exports = {
             colors: {
                 'gold': '#B68C5A',
                 'desc-color': '#707070',
+                'dark-2': '#414040',
             },
             fontFamily: {
                 'garamond': 'EB Garamond',
