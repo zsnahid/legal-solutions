@@ -1,0 +1,20 @@
+#navlink::after {
+    color: #B68C5A;
+    justify-self: end;
+    display: block;
+    margin-top: -.5rem;
+    height: .5rem;
+    width: .5rem;
+    transform: rotate(-45deg);
+    transition-property: transform, margin-top;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
+    transform-origin: 100% 100%;
+    box-shadow: 2px 2px;
+    pointer-events: none;
+}
+
+#navlink[open]::after{
+    transform: rotate(45deg);
+}
