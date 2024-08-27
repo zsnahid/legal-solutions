@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+        extend: {
+            colors: {
+                'gold': '#B68C5A',
+                'gray': '#707070',
+            },
+            fontFamily: {
+                'garamond': 'EB Garamond',
+                'poppins': 'Poppins',
+            },
+            backgroundImage: {
+                'banner': "url('./images/banner.png')",
+            },
+        },
+    },
+    plugins: [],
+}
