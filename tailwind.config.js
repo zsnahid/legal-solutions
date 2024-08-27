@@ -5,7 +5,7 @@ module.exports = {
         extend: {
             colors: {
                 'gold': '#B68C5A',
-                'gray': '#707070',
+                'desc-color': '#707070',
             },
             fontFamily: {
                 'garamond': 'EB Garamond',
